@@ -1,0 +1,5 @@
+price = float(input())
+tipPer = float(input())
+taxPer = float(input())
+totalCost = int(price*(tipPer/100) + price*(taxPer/100) + price+0.5)
+print(totalCost)
